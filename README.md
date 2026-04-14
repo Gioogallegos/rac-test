@@ -9,7 +9,7 @@ La aplicación está construida con **Ionic 8 + Angular Standalone** y consume l
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/rac-test.git
+   git clone https://github.com/Gioogallegos/rac-test.git
    cd rac-test
 Instalar dependencias:
 
