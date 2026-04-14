@@ -9,11 +9,10 @@
   </ion-toolbar>
 
   <ion-toolbar>
-    <ion-searchbar
-      placeholder="Buscar por nombre"
-      (ionInput)="search$.next($event.detail.value ?? '')">
+    <ion-searchbar placeholder="Buscar por nombre" (ionInput)="search$.next($event.detail.value ?? '')">
     </ion-searchbar>
 
+    <!-- Toggle de orden -->
     <ion-segment value="asc" (ionChange)="setSort($event.detail.value)">
       <ion-segment-button value="asc">A → Z</ion-segment-button>
       <ion-segment-button value="desc">Z → A</ion-segment-button>
